@@ -16,10 +16,8 @@
    <include subset="menu" name="Menu 01">./Menu-01.xml</include>
    <include subset="menu" name="Menu 02">./Menu-02.xml</include>
    <include subset="menu" name="Menu 03">./Menu-03.xml</include>
-   <include subset="menu" name="Menu 04">./Menu-04.xml</include>
-
+ 
    <include subset="logo" name="Logo Simple">./logos.xml</include>
-   <include subset="logo" name="gold dragon plaque">./dragon plaque logos.xml</include>
 
    <include subset="characters" name="chars On">./chars-on.xml</include>
    <include subset="characters" name="chars Off">./chars-off.xml</include>
