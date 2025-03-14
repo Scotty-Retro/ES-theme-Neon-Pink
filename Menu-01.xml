@@ -1,0 +1,72 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">
+
+<carousel name="systemcarousel">
+<defaultTransition>fade</defaultTransition>
+<zIndex>999</zIndex>
+<maxLogoCount>3</maxLogoCount>
+<color>ffffff00</color>
+<colorEnd>ffffff00</colorEnd>
+<color>00000000</color>
+<colorEnd>00000000</colorEnd>
+<logoSize>0.65 0.65</logoSize>
+<logoScale>0.4</logoScale>
+<size>1 1</size>
+<pos>0 0</pos>
+</carousel>
+
+	<image name="menu1frame" extra="true">
+		<pos>0 0</pos>
+		<maxSize>1 1</maxSize>
+		<color>ffffff</color> 
+		<path>./_inc/menu1bg.png</path>
+		<zIndex>2</zIndex>
+	  </image>
+
+
+     <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>0 0.84</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+     </text> 
+         
+
+ 	  <image name="charleft" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size> 
+         <path>./_inc/chars/left/default.png</path>       
+         <path>./_inc/chars/left/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="-0.35" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>999</zIndex>          
+      </image> 
+
+
+	<image name="logotype1" extra="true">
+		<pos>0.375 0.02</pos>
+		<maxSize>0.275 0.275</maxSize>
+		<color>ffffff</color> 
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<zIndex>998</zIndex>
+	  </image>
+ 	 
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.022</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.98</pos>
+     <fontPath>./_inc/.ttf</fontPath>
+     </helpsystem>
+     </view>
+     </theme>

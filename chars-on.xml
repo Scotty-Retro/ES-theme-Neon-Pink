@@ -1,0 +1,69 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+<view name="system">
+
+ 	  <image name="char" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size> 
+         <path>./_inc/chars/default.png</path>       
+         <path>./_inc/chars/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="1.25" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>999</zIndex>          
+      </image> 
+</view>
+
+<view name="detailed">
+
+	  <image name="char2" extra="true">
+         <origin>0 0</origin>
+         <pos>0.55 0.63</pos>
+         <size>0.33 0.33</size> 
+         <path>./_inc/chars/default.png</path>       
+         <path>./_inc/chars/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="0.5" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>9</zIndex>          
+      </image> 
+	  
+	</view>
+
+<view name="video">
+
+	  <image name="char3" extra="true">
+         <origin>0 0</origin>
+         <pos>0.48 0.58</pos>
+         <size>0.2 0.2</size> 
+         <path>./_inc/chars/default.png</path>       
+         <path>./_inc/chars/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="0.25" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>998</zIndex>          
+      </image> 
+
+	</view>
+
+<view name="gamecarousel">
+
+ 	  <image name="char4" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size> 
+         <path>./_inc/chars/default.png</path>       
+         <path>./_inc/chars/${system.theme}.png</path>
+		 <color>ffffff</color>
+   <storyboard>
+        <animation property="x" from="1.25" begin="0" duration="500" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+         <zIndex>999</zIndex>          
+      </image> 
+</view>
+</theme>

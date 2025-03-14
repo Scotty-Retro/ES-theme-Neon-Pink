@@ -1,0 +1,80 @@
+<theme>
+   <formatVersion>7</formatVersion>
+
+     <view name="system">
+
+         <carousel name="systemcarousel">
+          <zIndex>43</zIndex>	      
+          <type>vertical_wheel</type>
+          <pos>-0.4 0.05</pos>
+          <size>1 0.9</size>
+          <logoSize>0.15 0.15</logoSize>
+          <color>00000000</color>
+          <maxLogoCount>8</maxLogoCount>
+          <logoRotation>23</logoRotation>
+          <logoRotationOrigin>3.5 0.5</logoRotationOrigin>
+          <logoAlignment>center</logoAlignment>  
+		<defaultTransition>instant</defaultTransition>	     
+         </carousel>
+
+
+ 	  <image name="menu3" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/menu3.png</path>
+		 <color>ffffff</color>
+         <zIndex>3</zIndex>          
+      </image> 
+
+     <text name="systemInfo">
+	    <glowColor>000000</glowColor>
+        <pos>0 0.88</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <color>ffffff</color>
+        <fontPath>./_inc/fonts/.ttf</fontPath>
+	    <fontSize>0.040</fontSize>
+        <zIndex>999</zIndex>
+     </text> 
+
+	<image name="logotype1" extra="true">
+		<pos>0.4 0.025</pos>
+		<maxSize>0.22 0.22</maxSize>
+		<color>ffffff</color> 
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.svg</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+   <storyboard>
+        <animation property="y" from="0.01" begin="0" duration="350" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+		<zIndex>998</zIndex>
+	  </image>
+ 	 
+	       <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.022</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.98</pos>
+     <fontPath>./_inc/.ttf</fontPath>
+     </helpsystem>
+	
+	
+      <video name="backgroundvideo1" extra="true">
+         <default>./_inc/girls.mp4</default>
+        <visible>true</visible>
+        <path>{random}</path>            
+        <pos>0.5 0.5</pos>
+        <origin>0.5 0.5</origin>
+        <size>0.5 0.7</size>
+        <delay>0.01</delay>
+        <showSnapshotNoVideo>false</showSnapshotNoVideo>
+        <showSnapshotDelay>false</showSnapshotDelay>
+        <color>FFFFFF</color>
+   <storyboard>
+        <animation property="y" from="0.6" begin="0" duration="350" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+        <zIndex>2</zIndex>
+     </video>
+
+     </view>
+     </theme>

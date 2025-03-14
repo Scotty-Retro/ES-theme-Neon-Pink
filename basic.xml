@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------basic------------------------------------- -->
+
+<view name="basic">	
+      <textlist name="gamelist">
+         <zIndex>5</zIndex>	      
+         <pos>0.0175 0.54</pos>
+         <size>0.375 0.43</size>
+         <fontPath>./_inc/fonts/.ttf</fontPath>
+         <fontSize>0.0475</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>left</alignment>      
+		 <zIndex>998</zIndex>
+      </textlist>
+
+	   <image name="basic" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/basic.png</path>
+		 <zIndex>1</zIndex>
+      </image>
+
+	  
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/.ttf</fontPath>
+     </helpsystem>
+	 		 
+
+	   <image name="basicblack" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/basicframe.png</path>
+		 <zIndex>2</zIndex>
+      </image>
+
+	   <image name="basictop" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/basictop.png</path>
+		 <zIndex>999</zIndex>
+      </image>
+	
+ <image name="logos" extra="true">
+        <pos>0.1 0.05</pos>
+        <maxSize>0.2 0.2</maxSize>
+		<path>./default/_inc/logo.png</path>
+		<path>./_inc/logos/${system.theme}.png</path>
+		<color>ffffff</color>
+	    <zIndex>999</zIndex>
+	</image>
+</view>
+   
+   </theme>

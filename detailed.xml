@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+<formatVersion>7</formatVersion>
+
+<!---------------------------detailed------------------------------------- -->
+
+   <view name="detailed">
+         <textlist name="gamelist">
+         <zIndex>5</zIndex>	      
+         <pos>0.5475 0.05</pos>
+         <size>0.365 0.485</size>
+         <fontPath>./_inc/fonts/.ttf</fontPath>
+         <fontSize>0.035</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <alignment>left</alignment>      
+      </textlist>
+	  
+
+     <helpsystem name="help">
+	 <iconColor>FFFFFF</iconColor>
+     <fontSize>0.02</fontSize>
+     <origin>0.5 0.5</origin>
+     <pos>0.5 0.985</pos>
+       <fontPath>./_inc/fonts/.ttf</fontPath>
+     </helpsystem>
+	   
+	  	<video name="md_video">
+			<pos>0.31 0.33</pos>
+			<size>0.43 0.43</size>
+			<origin>0.5 0.5</origin>
+			<showSnapshotNoVideo>false</showSnapshotNoVideo> 
+			<showSnapshotDelay>false</showSnapshotDelay>
+			<effect>none</effect>
+			<zIndex>4</zIndex> 
+		</video>
+
+		<video name="" extra="true">
+			<pos>0.31 0.33</pos>
+			<size>0.43 0.43</size>
+			<origin>0.5 0.5</origin>
+            <path>./_inc/.mp4</path>
+            <zIndex>3</zIndex>          
+        </video>
+
+	   <image name="logos" extra="true">
+         <origin>0 0</origin>
+         <pos>0.175 0.75</pos>
+         <size>0.24 0.24</size>
+         <path>./_inc/logos/${system.theme}.png</path>
+			<storyboard event="activate">
+		<animation property="rotation" to="720" begin="1000" autoreverse="false" duration="500"/>
+		<animation property="rotation" to="-720" begin="3000" autoreverse="false" duration="500"/>
+			</storyboard>
+		 <zIndex>999</zIndex>
+      </image>
+
+	   <image name="detailed frame" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/detailedframe.png</path>
+		 <zIndex>10</zIndex>
+      </image>
+
+	  <image name="md_thumbnail">
+       <pos>0.65 0.8</pos>
+       <maxSize>0.21 0.24</maxSize>
+       <origin>0.5 0.5</origin>
+       <zIndex>8</zIndex>
+   <storyboard event="activate">
+        <animation property="x" from="0.7" begin="0" duration="350" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+       </image>
+
+	  <image name="md_marquee">
+       <pos>0.3 0.075</pos>
+       <maxSize>0.11 0.11</maxSize>
+       <origin>0.5 0.5</origin>
+       <zIndex>10</zIndex>
+   <storyboard event="activate">
+        <animation property="x" from="0.5" begin="0" duration="350" autoreverse="false" mode="easyInOut"/>
+		</storyboard>
+       </image>
+
+
+      <text name="md_lbl_playcount">
+         <color>ffffff</color>
+         <pos>0.35 0.63</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <text name="md_playcount">
+         <color>ffffff</color>
+         <pos>0.45 0.63</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+     <text name="md_lbl_gametime">
+         <pos>0.35 0.66</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </text>
+     <text name="md_gametime">
+         <pos>0.45 0.66</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </text>
+      <text name="md_lbl_players">
+         <color>ffffff</color>
+         <pos>0.115 0.63</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+       <text name="md_lbl_rating">
+         <pos>0.35 0.69</pos>
+         <size>0.2 0.035</size>
+         <color>ffffff</color>
+         <zIndex>5</zIndex>                 
+      </text>
+      <rating name="md_rating">
+         <color>ffffff</color>
+         <zIndex>999</zIndex>       
+         <pos>0.399 0.69</pos>
+         <size>0.039 0.039</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_players">
+         <pos>0.18 0.63</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </text>
+      <text name="md_lbl_releasedate">
+         <color>ffffff</color>
+         <pos>0.115 0.66</pos>
+         <size>0.12 0.035</size>
+         <zIndex>43</zIndex>         
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.18 0.66</pos>
+         <size>0.1 0.035</size>
+         <zIndex>43</zIndex>
+         <color>ffffff</color>                  
+      </datetime>
+      <text name="md_lbl_genre">
+         <color>ffffff</color>
+         <pos>0.115 0.69</pos>
+         <size>0.12 0.035</size>
+         <zIndex>5</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.16 0.69</pos>
+         <size>0.16 0.035</size>
+         <color>ffffff</color>         
+         <zIndex>5</zIndex>         
+      </text>                           
+    </view>
+   
+   </theme>
